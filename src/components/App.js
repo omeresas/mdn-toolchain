@@ -35,7 +35,7 @@ export default function App() {
     return acc;
   }, 0);
 
-  document.title = `${hazards} potential HAZARDS ${hazards > 0 ? '😱' : '👍'}`;
+  document.title = `${hazards} potential hazards ${hazards > 0 ? '😱' : '👍'}`;
 
   const results = data.result.near_earth_objects[day];
   return (
